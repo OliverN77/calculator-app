@@ -26,13 +26,17 @@
     "plugins": [
       "expo-router",
       [
-        "expo-splash-screen",
+        "expo-navigation-bar",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "enforceContrast": true,
+          "hidden": false,
+          "style": "light"
         }
-      ]
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
